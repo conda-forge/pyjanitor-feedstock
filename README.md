@@ -5,11 +5,13 @@ Home: https://github.com/ericmjl/pyjanitor
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyjanitor-feedstock/blob/master/LICENSE.txt)
 
-Summary: Python implementation of the R package janitor.
+Summary: Tools for cleaning pandas DataFrames
 
+Development: https://github.com/ericmjl/pyjanitor
 
+Documentation: http://pyjanitor.readthedocs.io
 
 Current build status
 ====================
