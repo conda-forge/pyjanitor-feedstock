@@ -24,7 +24,7 @@ requirements:
     - multipledispatch
     - natsort
     - pandas
-    - pandas-flavor
+    - pandas_flavor >=0.5
     - requests
     - scikit-learn
     - scipy
