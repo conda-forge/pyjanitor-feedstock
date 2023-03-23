@@ -11,7 +11,7 @@ source:
   sha256: c15545117388cceab0b05f3e9bdbfad822dd71b2a7eb528132da05ff9c53ea5b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -24,7 +24,7 @@ requirements:
     - multipledispatch
     - natsort
     - pandas
-    - pandas-flavor
+    - pandas_flavor >=0.5
     - requests
     - scikit-learn
     - scipy

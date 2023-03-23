@@ -1,11 +1,11 @@
-About pyjanitor
-===============
+About pyjanitor-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyjanitor-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pyjanitor-devs/pyjanitor
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyjanitor-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tools for cleaning pandas DataFrames
 
