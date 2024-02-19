@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/pyjanitor-devs/pyjanitor/archive/v0.23.1.tar.gz
+  url: https://github.com/pyjanitor-devs/pyjanitor/archive/v{{ version }}.tar.gz
   sha256: c15545117388cceab0b05f3e9bdbfad822dd71b2a7eb528132da05ff9c53ea5b
 
 build:
