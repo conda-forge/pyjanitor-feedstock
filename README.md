@@ -150,6 +150,3 @@ Feedstock Maintainers
 * [@ericmjl](https://github.com/ericmjl/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 
-
-<!-- dummy commit to enable rerendering -->
-
