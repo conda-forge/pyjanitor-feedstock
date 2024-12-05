@@ -1,5 +1,5 @@
 {% set name = "pyjanitor" %}
-{% set version = "0.29.2" %}
+{% set version = "0.30.0" %}
 
 
 package:
@@ -8,20 +8,21 @@ package:
 
 source:
   url: https://github.com/pyjanitor-devs/pyjanitor/archive/v{{ version }}.tar.gz
-  sha256: 9a5a27b20410685ecc4b76ab85322d57b3bcabebc72bd79767bbf4fb2f806ae8
+  sha256: 4c00e48d695cd1d42f31db06a5d449b133eeea13763567d31f7ecda1b1285638
 
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation 
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
+    - setuptools
     - pip
   run:
+    - python >={{ python_min }}
     - pandas-flavor
-    - python >=3.6
     - multipledispatch
     - natsort
     - pandas
@@ -34,6 +35,7 @@ requirements:
 
 test:
   requires:
+    - python {{ python_min }}
     - pip
   commands:
     - pip check
