@@ -1,5 +1,5 @@
 {% set name = "pyjanitor" %}
-{% set version = "0.32.3" %}
+{% set version = "0.32.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/pyjanitor-devs/pyjanitor/archive/v{{ version }}.tar.gz
-  sha256: e9b36f5fb070337fac3fb7daa69cf69188f38f686d1d78831dc7e6295a84df45
+  sha256: fdb08c56b3f8ff276a7993b1de7a0ecba3d7dc06230078494ee1448ec47b666a
 
 build:
   number: 0
