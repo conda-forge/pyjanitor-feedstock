@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "pyjanitor" %}
-{% set version = "0.32.17" %}
+{% set version = "0.32.18" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/pyjanitor-devs/pyjanitor/archive/v{{ version }}.tar.gz
-  sha256: f41f165a30885c531832806d16d839890dc0b246e75ca5a850e60946c761df4c
+  sha256: c3968e0bcd811e2d5c0efc0314795f43c1fb5c21be89d771b77c7a41c65b26e2
 
 build:
   number: 0
